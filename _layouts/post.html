@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<a class="back-to-home" href="{{ site.url }}">Back To Home</a>
+<article class="post" id="{{ page.id }}">
+	<hgroup>
+		<h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h2>
+		<h2>{{ page.date | date_to_long_string }}</h3>
+	</hgroup>
+	{{ content }}
+</article>
