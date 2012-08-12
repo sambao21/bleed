@@ -1,0 +1,81 @@
+@media screen and (min-width : 1000px) {
+	.container {
+		width:1024px;
+		margin:0 auto;
+	}
+}
+
+@media screen and (max-width : 1000px) {
+	.container {
+		width:100%;
+		margin:0 auto;
+	}
+}
+
+body {
+	padding:0;
+	max-width:100%;
+}
+
+h1 {
+	margin:0;
+}
+
+ul,dl {list-style: none;}
+
+a,a:visited {
+	color: #000;
+	text-decoration: none;
+	text-shadow:2px 2px 2px #cecece;
+}
+
+a:hover {
+	color:#0099ff;
+}
+
+.main-header {
+	display: block;
+    position: fixed;
+    background-color: #fff;
+    width:100%;
+    box-shadow:0 5px 15px #eee;
+}
+
+.main-header hgroup {
+	float:left;
+}
+
+.main-header hgroup h1, .main-header hgroup h2 {
+	margin:12px 0;
+}
+
+.main-header hgroup h2 {
+	font-size:1.2em;
+}
+
+.main-header nav {
+	float:right;
+	margin-top:12px;
+}
+
+nav li {
+	float:left;
+	margin-right:1em;
+}
+
+.posts {
+	padding-top:130px;
+}
+
+.post h1 {
+	font-size:1.7em;
+}
+
+.post h2 {
+	font-size:1.2em;
+	display:inline;
+}
+
+.back-to-home {
+	float:right;
+}
