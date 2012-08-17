@@ -67,6 +67,11 @@ nav li {
 	padding-top:130px;
 }
 
+.post {
+	border-bottom:1px dashed #ccc;
+	margin-bottom:1em;
+}
+
 .post h1 {
 	font-size:1.7em;
 }
@@ -78,4 +83,10 @@ nav li {
 
 .back-to-home {
 	float:right;
+}
+
+.hightlight pre {
+    border: 1px solid #ccc;     
+    padding: .5em;
+    border-radius: 5px;
 }
