@@ -67,6 +67,11 @@ nav li {
 	padding-top:130px;
 }
 
+.post img {
+  border:1px solid #aaa;
+  padding:3px;
+}
+
 .post h1 {
 	font-size:1.7em;
 }
