@@ -1,1 +1,3 @@
 url: http://blog.foobar.com
+pygments: True
+baseurl: http://foobar.com

@@ -79,3 +79,9 @@ nav li {
 .back-to-home {
 	float:right;
 }
+
+.hightlight pre {
+    border: 1px solid #ccc;     
+    padding: .5em;
+    border-radius: 5px;
+}
